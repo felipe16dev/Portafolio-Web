@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal para proyectos front-end">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTAFOLIO</title>
+    <link rel="icon" href="./img/work.svg" type="img/png">
+</head>
+<body>
+
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header-chekbox">
+        <label for="open-menu" class="header-open-nav-button" role="button"><img src="./img/menu.svg" alt="list"></label>
+        <div class="container-logo">
+            <img class="logo" width="100px" src="./img/mi_loguito.png" alt="logo">
+        </div>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container-tittle-p">
+            <h2 class="main-tittle">¡Hola, soy <span> Carlos Felipe!</span></h2>
+            <p class="main-p">
+                Ingeniero de Sistemas apasionado por el <span>Desarrollo Web Front-End</span>. Mi objetivo es crear experiencias web excepcionales y efectivas, optimizando cada detalle para alcanzar y superar las expectativas del usuario.
+            </p>
+            <div class="container-icons">
+                <a href="https://www.linkedin.com/in/carlos-fernando-felipe-corrales-3b5156189/" target="_blank"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                <a href="https://github.com/Carlos-Felipe-Corrales/" target="_blank"><img src="./icons/github.svg" alt="github"></a>
+                <a href="mailto:carlosf9916corr@gmail.com" target="_blank"><img src="./icons/mail.svg" alt="mail"></a>
+            </div>
+            <div class="container-button">
+                <a class="main-button" href="#projects">Proyectos</a>
+            </div>
+        </div>
+        <div class="container-img">
+            <img class="img-foto" src="./img/foto.webp" alt="perfil">
+        </div>
+    </section>
+
+    <section class="about-me" id="about">
+        <div class="container-about-me-p-tittle">
+            <h2 class="subti">SOBRE MI</h2>
+        </div>
+        <div class="container-conoceme-skill">
+            <div class="conoceme">
+                <h3 class="sub-tittle">¡Conóceme!</h3>
+                <p class="p-conoceme">Soy un desarrollador web front-end con experiencia en crear experiencias interactivas y atractivas para usuarios. Utilizo HTML, CSS y JavaScript para dar vida a diseños creativos y funcionales. Estoy emocionado por colaborar en proyectos que desafíen mis habilidades y me permitan seguir aprendiendo y creciendo en este apasionante campo.</p>
+                <div class="enlace-icon">
+                    <a href="https://www.linkedin.com/in/carlos-fernando-felipe-corrales-3b5156189/" target="_blank"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://github.com/Carlos-Felipe-Corrales/" target="_blank"><img src="./icons/github.svg" alt="github"></a>
+                    <a href="https://wa.me/51999672992" target="_blank"><img src="./icons/whatsapp.svg" alt="number"></a>
+                    <a href="mailto:carlosf9916corr@gmail.com" target="_blank"><img src="./icons/mail.svg" alt="mail"></a>
+                </div>
+            </div>
+            <div class="skills">
+                <h3 class="sub-tittle">¡Mis habilidades!</h3>
+                <ul>
+                    <li class="profile-skills">
+                        <div class="load-bar">
+                            <div class="load-bar-bar bar--60">60%</div>
+                        </div>
+                        <span class="profile-skill-name">HTML</span>
+                    </li>
+                    <li class="profile-skills">
+                        <div class="load-bar">
+                            <div class="load-bar-bar bar--60">60%</div>
+                        </div>
+                        <span class="profile-skill-name">CSS</span>
+                    </li>
+                    <li class="profile-skills">
+                        <div class="load-bar">
+                            <div class="load-bar-bar bar--40">40%</div>
+                        </div>
+                        <span class="profile-skill-name">JAVASCRIPT</span>
+                    </li>
+                    <li class="profile-skills">
+                        <div class="load-bar">
+                            <div class="load-bar-bar bar--30">30%</div>
+                        </div>
+                        <span class="profile-skill-name">MYSQL</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="container-projects" id="projects">
+        <div class="project-tittle-p">
+            <h2 class="subti">PROYECTOS</h2>
+        </div>
+        <div class="proyectos">
+            <div class="card-projects">
+                <div class="card-container-img">
+                    <img src="./img/portada_pet.webp" alt="portada-pet" loading="lazy">
+                </div>
+                <div class="card-p-tittle-icons">
+                    <div class="div-h2-img">
+                        <h2><a class="card-tittle" href="https://petshop-scan.netlify.app/" target="_blank">PetShop Scan</a></h2>
+                        <a href="https://petshop-scan.netlify.app/" target="_blank"><img class="img-link" src="./icons/link.svg" alt="enlace"></a>
+                    </div>
+                    <p class="card-p">
+                        Realicé una Página Web para una Pet Shop, en donde usé Html para estructurar el proyecto, Css para darle estilo y JavaScript para algunas funcionalidades.
+                    </p>
+                    <p class="card-p">
+                        La página web es una web donde muestra los servicios que brinda el Pet, además algunos accesorios que vende y en dónde los pueden ubicar.
+                    </p>
+                    <div class="card-icons">
+                        <img src="./icons/html.svg" alt="html">
+                        <img src="./icons/css.svg" alt="css">
+                        <img src="./icons/js.svg" alt="js">
+                    </div>
+                </div>
+            </div>
+            <div class="card-projects">
+                <div class="card-container-img">
+                    <img src="./img/portada-games.webp" alt="portada-juegos" loading="lazy">
+                </div>
+                <div class="card-p-tittle-icons">
+                    <div class="div-h2-img">
+                        <h2><a class="card-tittle" href="https://next-games-icharlietv.netlify.app/" target="_blank">Juegos iTV_</a></h2>
+                        <a href="https://next-games-icharlietv.netlify.app/" target="_blank"><img class="img-link" src="./icons/link.svg" alt="enlace"></a>
+                    </div>
+                    <p class="card-p">
+                        Realicé una Página Web para una Streamer, quien me solicitó una página en donde sus espectadores puedan entrar y ver que juegos jugará en los próximos streams.
+                    </p>
+                    <p class="card-p">
+                        La página web es una web donde se muestran los juegos que jugará próximamente.
+                    </p>
+                    <div class="card-icons">
+                        <img src="./icons/html.svg" alt="html">
+                        <img src="./icons/css.svg" alt="css">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="subti">CONTACTO</h2>
+        <div class="separation">
+            <div class="contacto-me">
+                <h2 class="contacto-tittle">Ponerse en Contacto</h2>
+                <p class="contacto-p">Si deseas ponerte en contacto conmigo, te dejo mis datos.</p>
+                <div>
+                    <div class="contacto-icon">
+                        <img src="./icons/place.svg" alt="place">
+                        <p>Perú - Nvo. Chimbote</p>
+                    </div>
+                    <div class="contacto-icon">
+                        <img src="./icons/mail-contact.svg" alt="email">
+                        <a href="mailto:carlosf9916corr@gmail.com" target="_blank">carlosf9916corr@gmail.com</a>
+                    </div>
+                    <div class="contacto-icon">
+                        <img src="./icons/phone.svg" alt="phone">
+                        <a href="https://wa.me/51999672992" target="_blank">+51 999672992</a>
+                    </div>
+                </div>
+            </div>
+            <form class="form-contact">
+                <div class="container-form-contact">
+                    <label>Nombre:
+                        <input type="text" placeholder="Juan Perez">
+                    </label>
+                </div>
+                <div class="container-form-contact">
+                    <label>Correo Electrónico:
+                        <input type="email" placeholder="ejemplo@ejemplo.com">
+                    </label>
+                </div>
+                <div class="container-form-contact">
+                    <label>Mensaje:
+                        <textarea placeholder="Escribir mensaje..."></textarea>
+                    </label>
+                </div>
+                <div class="container-form-contact cont-buton">
+                    <input class="button-contact-" type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-img">
+            <img src="./img/mi_loguito.png" alt="logo">
+        </div>
+        <div class="footer-links">
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </div>
+        <div class="footer-text">
+            <h3>2024 - CARLOS FELIPE CORRALES</h3>
+        </div>
+    </footer>
+
+    <script defer src="main.js"></script>
+</body>
+</html>
