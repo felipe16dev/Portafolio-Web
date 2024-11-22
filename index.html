@@ -181,20 +181,20 @@
                     </div>
                 </div>
             </div>
-            <form class="form-contact">
+            <form id="form" class="form-contact" action="https://formspree.io/f/xeoqznly" method="POST">
                 <div class="container-form-contact">
-                    <label>Nombre:
-                        <input type="text" placeholder="Juan Perez">
+                    <label for="name">Nombre:
+                        <input name="name" type="text" placeholder="Juan Perez">
                     </label>
                 </div>
                 <div class="container-form-contact">
-                    <label>Correo Electrónico:
-                        <input type="email" placeholder="ejemplo@ejemplo.com">
+                    <label for="email">Correo Electrónico:
+                        <input name="email" type="email" placeholder="ejemplo@ejemplo.com">
                     </label>
                 </div>
                 <div class="container-form-contact">
-                    <label>Mensaje:
-                        <textarea placeholder="Escribir mensaje..."></textarea>
+                    <label for="message">Mensaje:
+                        <textarea id="message" name="message" placeholder="Escribir mensaje..."></textarea>
                     </label>
                 </div>
                 <div class="container-form-contact cont-buton">
