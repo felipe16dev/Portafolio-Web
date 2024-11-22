@@ -32,3 +32,16 @@ async function handleSubmit(e){
         alert('Gracias por contactarme, te escribiré pronto :D')
     }
 }
+
+/* =============== SCROLL UP =============== */
+const scrollUp = () =>{
+    const scrollUP = document.getElementById('scroll-up');
+    //When the scroll is higher than 200 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 200){
+        scrollUP.classList.add('show-scroll');
+    } else{
+        scrollUP.classList.remove('show-scroll');
+    }
+    window.addEventListener('scroll',scrollUp);
+}
+scrollUp()
